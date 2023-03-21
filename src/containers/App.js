@@ -77,7 +77,6 @@ export class App extends React.Component {
 // if taking a while to load (robots = 0) -> 'loading'
 export default App;
 
-
 // to use states - must create classes
 // must always have render()
 // robots from robots.js is now passed as prop here; 
