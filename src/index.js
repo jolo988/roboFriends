@@ -5,8 +5,6 @@ import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'; //css styles
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 
@@ -24,7 +22,6 @@ reportWebVitals();
 // 2nd: add multiple cards
 // 3rd: add properties to cards (to make dynamic)
 // -> Export card in robots.js
-
 
 // props - properties that keeps getting passed down (with pure functions/components) - never change
 // state - description of app (object that describes application) and able to change (ex. search box, change what gets displayed)
